@@ -86,13 +86,14 @@ main {
 }
 
 footer {
-  background-color: #333;
+  background-color: #3f4d75;
   color: #fff;
 }
 
 footer .container {
   display: flex;
   justify-content: center;
+  padding: 20px;
 }
 
 tr, td {
@@ -102,4 +103,32 @@ tr, td {
 
 #gg {
   width: 100px;
+}
+
+/* projects */
+.projects, .community{
+  min-height: 600px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 78px;
+}
+
+.community-container {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 78px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 80px;
 }
