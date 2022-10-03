@@ -125,6 +125,7 @@ tr, td {
 }
 
 .card {
+  
   display: flex;
   flex-direction: column;
   flex-basis: 30%;

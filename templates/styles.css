@@ -1,0 +1,56 @@
+.hero {
+  background: url('https://images.unsplash.com/photo-1552581234-26160f608093');
+  background-size: cover;
+  height: 600px;
+}
+
+.about-us {
+  height: 500px;
+}
+
+.about-us .right, .left{
+  flex-basis: 45%;
+}
+
+.about-us .left {
+  text-align: justify;
+}
+
+.about-us .right img {
+  width: 100%;
+}
+
+.testimonial-wrapper {
+  min-height: 500px;
+}
+
+.image-profle, .info-profile {
+  flex-basis: 45%;
+}
+
+.excited-search {
+  height: 228px;
+}
+
+.excited-search form {
+  gap: 20px;
+}
+
+.excited-search .search-input {
+  outline: none;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .excited-search .search-input{
+    width: 400px;
+  }
+}
+
+.overlay {
+  background-color: rgba(84, 172, 122, 0.534);
+}
+
+.footer-container div{
+  flex-basis: 25%;
+}
