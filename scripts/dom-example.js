@@ -1,7 +1,7 @@
-let renderMHS = document.getElementById("data-mhs");
+let renderMHS = $("#data-mhs")[0];
 const dataMHS = [];
-const addBtn = document.getElementById("add-btn");
-const editBtn = document.getElementById("edit-btn");
+const addBtn = $("#add-btn")[0];
+const editBtn = $("#edit-btn")[0];
 const form = document.forms["mhs-form"];
 
 let selectedIndex = null;
