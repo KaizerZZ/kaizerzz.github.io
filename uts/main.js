@@ -3,7 +3,7 @@ let renderProvinsi = $("#covid-provinsi")[0];
 async function getDataSummary() {
   await $.ajax({
     type: "GET",
-    url: "https://dekontaminasi.com/api/id/covid19/stats",
+    url: "/uts/dummy-data/stats.json",
     data: { get_param: "value" },
     dataType: "json",
     success: (data) => {
@@ -26,7 +26,7 @@ async function getDataRegions() {
 
   await $.ajax({
     type: "GET",
-    url: "https://dekontaminasi.com/api/id/covid19/stats",
+    url: "/uts/dummy-data/stats.json",
     data: { get_param: "value" },
     dataType: "json",
     success: (data) => {
