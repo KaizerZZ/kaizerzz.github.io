@@ -47,7 +47,7 @@ async function getDataRegions() {
                     </div>
                   </div>
                   <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <small class="text-muted">Update Terakhir ${new Date().toDateString()}</small>
                   </div>
                 </div>
               </div>
