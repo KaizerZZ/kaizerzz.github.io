@@ -111,7 +111,7 @@ async function searchRegion(region) {
 }
 
 $(document).ready(() => {
-	if (top.location.pathname === "/uts/index.html") {
+	if (top.location.pathname === "/uts/index.html" || top.location.pathname === "/uts/") {
 		getDataSummary();
 	} else if (top.location.pathname === "/uts/list-provinsi.html") {
 		getDataRegions();
