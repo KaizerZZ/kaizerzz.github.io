@@ -78,7 +78,7 @@ async function searchRegion(region) {
 			regions.map((region) => {
 				if (region.name.includes(region)) {
 					renderProvinsi.innerHTML += `
-            <div class="col-3 mb-5">
+            <div class="col-lg-3 mb-5">
               <div class="col">
                 <div class="card h-100">
                   <div class="card-body">
